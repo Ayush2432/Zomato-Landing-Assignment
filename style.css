@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
 /* upper one for the whole website
  */
 body {
   font-family: "Merriweather", serif;
   background-color: #ebf2ff;
 }
+
 /* header css */
 .navbar {
   display: flex;
@@ -19,9 +21,11 @@ body {
 .navbar_logo {
   width: 100%;
 }
+
 .navbar_logo:hover {
   cursor: pointer;
 }
+
 /* instead of resizing the image and spoil its basic format
 we resize the parent divisioin so the image will automatically fit to the div and will
 aquire 100% of the div */
@@ -31,12 +35,10 @@ aquire 100% of the div */
 }
 
 .nav_button {
-  background-image: linear-gradient(
-    to right,
-    #ff512f 0%,
-    #dd2476 51%,
-    #ff512f 100%
-  );
+  background-image: linear-gradient(to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%);
   color: #fff;
   border: none;
   padding: 12px;
@@ -48,6 +50,7 @@ aquire 100% of the div */
   border: 2px solid black;
   cursor: pointer;
 }
+
 /* section css */
 .container {
   padding: 20px;
@@ -64,6 +67,7 @@ aquire 100% of the div */
   width: 100%;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.834);
 }
+
 .section_text {
   color: rgb(4, 4, 5);
   margin: 20px 0;
@@ -151,18 +155,20 @@ aquire 100% of the div */
   margin-bottom: 50px;
   text-align: center;
 }
+
 .info2_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .emailForm {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.emailForm > input {
+.emailForm>input {
   font-size: 1rem;
   border: none;
   outline: none;
@@ -170,42 +176,36 @@ aquire 100% of the div */
   border-radius: 5px;
   margin: 0 10px;
 }
-.emailForm > button {
+
+.emailForm>button {
   padding: 7px;
 }
-.emailForm > button:hover {
+
+.emailForm>button:hover {
   padding: 5px;
 }
 
 /* footer css */
 .footer {
-
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    #ff512f 0%,
-    #dd2476 51%,
-    #ff512f 100%
-  );
+  background-image: linear-gradient(to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%);
   margin-top: 10px;
-}
-
-.footer>div{
-    margin-right: 5rem;
 }
 
 footer {
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    #ff512f 0%,
-    #dd2476 51%,
-    #ff512f 100%
-  );
+  background-image: linear-gradient(to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%);
   justify-content: center;
   align-items: center;
 }
@@ -215,9 +215,11 @@ footer {
   width: 30%;
   margin-top: 8px;
 }
-.disclamer{
-    text-align: center;
+
+.disclamer {
+  text-align: center;
 }
+
 .names {
   display: flex;
   justify-content: space-between;
@@ -243,12 +245,10 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    background-image: linear-gradient(
-      to right,
-      #ff512f 0%,
-      #dd2476 51%,
-      #ff512f 100%
-    );
+    background-image: linear-gradient(to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%);
     transform: skewY(-5deg);
   }
 
@@ -256,23 +256,28 @@ footer {
     justify-content: space-between;
     padding: 10px 30px;
   }
+
   .section_container {
     margin-top: 20px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
   }
+
   .info_container {
     display: flex;
     flex-direction: row-reverse;
   }
+
   .info_container_image {
     display: flex;
     flex-wrap: wrap;
   }
+
   .info_image {
     max-width: 40%;
   }
+
   .info_container_text {
     display: flex;
     align-items: center;
@@ -300,6 +305,7 @@ footer {
   .section_decription {
     width: 100%;
   }
+
   .section_text {
     font-size: 50px;
   }
